@@ -68,12 +68,6 @@ namespace Kod_and_Dekod19._04._17
             // string text = File.ReadAllText(@"C:\Users\student\Desktop\Kolobok.txt");
 
             string text = "колобок";
-            string text1 = "";
-
-            for (int i = 0; i < text.Length; i++)
-            {
-                text1 = text1 + Kod(text)[i, 0];
-            }
 
             Console.WriteLine((text));
 
